@@ -1,0 +1,67 @@
+/* style2.css */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(to right, #b186e0, #6c97e1);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    max-width: 600px;
+    text-align: left; /* Updated to left-align content */
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #7278eb;
+    text-align: center; /* Center align the h1 tag */
+}
+
+.score, .eq-evaluation {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.score span, .eq-evaluation span {
+    font-weight: bold;
+    color: #7075de;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #7d82e3;
+}
+
+.recommendation {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.back-button {
+    display: inline-block;
+    background: #7e83e1;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background: #9d5ce2;
+}

@@ -1,0 +1,888 @@
+{
+"EyeContact":[
+        {
+          "question": "You are talking to a friend at school.",
+          "options": [
+        "A: I look at my notes and occasionally look up.",
+        "B: I mostly look down at my paper.",
+        "C: I avoid looking at them and just nod.",
+        "D: I don’t really look at them and feel out of place.",
+        "E: I look at my friend and listen carefully."
+      ],
+      "answer_mapping": {"A": 4, "B": 3, "C": 2, "D": 1, "E": 5}
+        },
+        {
+          "question": "You are presenting in class.",
+          "options": [
+                "A: I make eye contact with my classmates while speaking.",
+                "B: I don’t look at anyone and feel nervous.",
+                "C: I mostly look down at my paper.",
+                "D: I look at my notes and occasionally look up.",
+                "E: I only look at my friend for support."
+            ],
+            "answer_mapping": {"A": 5, "B": 2, "C": 3, "D": 4, "E": 1}
+        },
+        {
+            "question": "You’re having a conversation with a teacher.",
+            "options": [
+                "A: I feel uncomfortable and avoid eye contact.",
+                "B: I don’t really look at them at all.",
+                "C: I look at the teacher and nod to show I’m listening.",
+                "D: I look around the room while they talk.",
+                "E: I glance at the teacher but sometimes look at my desk."
+      ],
+      "answer_mapping": {"A": 2, "B": 1, "C": 5, "D": 3, "E": 4}
+        },
+        {
+            "question": "You meet a new student.",
+            "options": [
+                "A: I avoid looking at them and just nod.",
+        "B: I smile and make eye contact to welcome them.",
+        "C: I look down and don’t make eye contact.",
+        "D: I listen but often look away to avoid awkwardness.",
+        "E: I look at them but feel a bit shy."
+      ],
+      "answer_mapping": {"A": 2, "B": 5, "C": 1, "D": 3, "E": 4}
+        },
+        {
+            "question": "You’re listening to a story from a friend.",
+            "options": [
+              "A: I look at them most of the time but sometimes look away.",
+              "B: I look at the floor while they talk.",
+              "C: I don’t really look at them and feel out of place.",
+              "D: I get distracted and look around a lot.",
+              "E: I keep looking at my friend and show I’m interested."
+            ],
+            "answer_mapping": {"A": 4, "B": 2, "C": 1, "D": 3, "E": 5}
+        }
+    ],
+"Behaviour": [
+        {
+            "question": "You see someone drop their books in the hallway.",
+            "options": [
+                "A: I laugh and walk past them.",
+                "B: I help them pick up their books.",
+                "C: I pretend I didn’t see anything.",
+                "D: I feel bad but just keep walking.",
+                "E: I watch but don’t do anything."
+      ],
+      "answer_mapping": {"A": 3, "B": 5, "C": 2, "D": 1, "E": 4}
+        },
+        {
+            "question": "Your friend is upset about a bad grade.",
+            "options": [
+                "A: I listen but don’t say much.",
+        "B: I tell them not to worry about it.",
+        "C: I comfort them and help them study for next time.",
+        "D: I don’t talk to them at all.",
+        "E: I change the subject to something else."
+      ],
+      "answer_mapping": {"A": 4, "B": 3, "C": 5, "D": 1, "E": 2}
+        },
+        {
+            "question": "You’re in a group project and someone is quiet.",
+            "options": [
+               "A: I ignore them and continue working.",
+        "B: I talk to the others and forget about them.",
+        "C: I ask them for their ideas and include them.",
+        "D: I let someone else talk to them.",
+        "E: I feel annoyed that they aren’t helping."
+      ],
+      "answer_mapping": {"A": 3, "B": 4, "C": 5, "D": 1, "E": 2}
+        },
+        {
+            "question": "A classmate needs help with homework.",
+            "options": [
+                "A: I laugh and say it’s too easy for me.",
+        "B: I offer to help them understand it better.",
+        "C: I tell them to ask someone else.",
+        "D: I say I can’t help but feel bad.",
+        "E: I just ignore them."
+      ],
+      "answer_mapping": {"A": 1, "B": 5, "C": 3, "D": 4, "E": 2}
+        },
+        {
+            "question": "You’re playing a game and someone loses.",
+            "options": [
+                "A: I make a joke about it.",
+        "B: I encourage them to try again and cheer them up.",
+        "C: I ignore their feelings and celebrate my win.",
+        "D: I tell them better luck next time.",
+        "E: I just walk away from the game."
+      ],
+      "answer_mapping": {"A": 3, "B": 5, "C": 2, "D": 4, "E": 1}
+        }
+    ],
+"SocialRelationship": [
+        {
+            "question": "You want to make a new friend at school.",
+      "options": [
+        "A: I feel nervous and avoid them.",
+        "B: I smile and say hi to them.",
+        "C: I pretend I don’t see them.",
+        "D: I keep to myself.",
+        "E: I wait for them to talk to me."
+      ],
+      "answer_mapping": {"A": 2, "B": 5, "C": 1, "D": 3, "E": 4}
+    },
+    {
+      "question": "You see your friends chatting at lunch.",
+      "options": [
+        "A: I leave the lunch area.",
+        "B: I feel left out and sit alone.",
+        "C: I listen but don’t say much.",
+        "D: I just watch and don’t participate.",
+        "E: I join in and share stories."
+      ],
+      "answer_mapping": {"A": 1, "B": 2, "C": 4, "D": 3, "E": 5}
+    },
+    {
+      "question": "You invite a friend to hang out.",
+      "options": [
+        "A: I don’t invite anyone.",
+        "B: I suggest fun activities for us to do.",
+        "C: I just text them without planning anything.",
+        "D: I feel nervous about asking.",
+        "E: I wait for them to pick something."
+      ],
+      "answer_mapping": {"A": 3, "B": 5, "C": 1, "D": 2, "E": 4}
+    },
+    {
+      "question": "A friend is feeling down.",
+      "options": [
+        "A: I ask them what’s wrong and offer support.",
+        "B: I listen but feel unsure how to help.",
+        "C: I ignore their feelings.",
+        "D: I leave them alone.",
+        "E: I change the subject to something light."
+      ],
+      "answer_mapping": {"A": 5, "B": 4, "C": 1, "D": 2, "E": 3}
+    },
+    {
+      "question": "You see two friends arguing.",
+      "options": [
+        "A: I take sides and argue back.",
+        "B: I laugh and find it funny.",
+        "C: I watch and stay quiet.",
+        "D: I walk away from the situation.",
+        "E: I try to help them talk it out."
+      ],
+      "answer_mapping": {"A": 3, "B": 1, "C": 4, "D": 2, "E": 5}
+    }
+  ],
+  "SpeechConveyance": [
+    {
+      "question": "You’re explaining something to a group.",
+      "options": [
+        "A: I struggle to explain what I mean.",
+        "B: I rush through my words.",
+        "C: I speak clearly and use examples.",
+        "D: I mumble sometimes.",
+        "E: I just keep quiet and let others talk."
+      ],
+      "answer_mapping": {"A": 3, "B": 2, "C": 5, "D": 4, "E": 1}
+    },
+    {
+      "question": "You’re sharing a story with friends.",
+      "options": [
+        "A: I feel shy and speak quietly.",
+        "B: I give up halfway through.",
+        "C: I tell it enthusiastically and engage them.",
+        "D: I tell it but don’t add much detail.",
+        "E: I get confused and lose my train of thought."
+      ],
+      "answer_mapping": {"A": 3, "B": 1, "C": 5, "D": 4, "E": 2}
+    },
+    {
+      "question": "You need to ask a teacher a question.",
+      "options": [
+        "A: I ask confidently and clearly.",
+        "B: I wait until someone else asks first.",
+        "C: I ask but feel embarrassed.",
+        "D: I mumble and feel nervous.",
+        "E: I don’t ask anything at all."
+      ],
+      "answer_mapping": {"A": 5, "B": 3, "C": 2, "D": 4, "E": 1}
+    },
+    {
+      "question": "You are in a debate at school.",
+      "options": [
+        "A: I present my points clearly and confidently.",
+        "B: I feel too nervous to speak.",
+        "C: I forget my main points during the debate.",
+        "D: I stay quiet and let others debate.",
+        "E: I share my opinion but fumble my words."
+      ],
+      "answer_mapping": {"A": 5, "B": 2, "C": 3, "D": 1, "E": 4}
+    },
+    {
+      "question": "You need to give a presentation.",
+      "options": [
+        "A: I rush through it without much thought.",
+        "B: I avoid giving the presentation altogether.",
+        "C: I practice and speak clearly to my audience.",
+        "D: I speak but feel a bit nervous.",
+        "E: I get stuck and don’t know what to say."
+      ],
+      "answer_mapping": {"A": 2, "B": 1, "C": 5, "D": 4, "E": 3}
+    }
+  ],
+"ConcentrationLevel": [
+    {
+      "question": "You’re studying for a test.",
+      "options": [
+        "A: I study but check my phone a lot.",
+        "B: I focus well and avoid distractions.",
+        "C: I get distracted easily by noise.",
+        "D: I find it hard to concentrate and daydream.",
+        "E: I don’t study and just hope for the best."
+      ],
+      "answer_mapping": {
+        "A": 4, "B": 5, "C": 2, "D": 3, "E": 1
+      }
+    },
+    {
+      "question": "You’re watching a movie.",
+      "options": [
+        "A: I watch but occasionally check my messages.",
+        "B: I get bored and start thinking about other things.",
+        "C: I keep talking and miss important parts.",
+        "D: I pay full attention and enjoy it.",
+        "E: I just watch others play instead."
+      ],
+      "answer_mapping": {
+        "A": 4, "B": 3, "C": 2, "D": 5, "E": 1
+      }
+    },
+    {
+      "question": "You’re doing homework.",
+      "options": [
+        "A: I stay focused and finish my work quickly.",
+        "B: I work but keep getting distracted by friends.",
+        "C: I struggle to concentrate and take long breaks.",
+        "D: I often stop and lose track of what I’m doing.",
+        "E: I don’t do my homework and forget about it."
+      ],
+      "answer_mapping": {
+        "A": 5, "B": 4, "C": 2, "D": 3, "E": 1
+      }
+    },
+    {
+      "question": "You’re listening to a teacher in class.",
+      "options": [
+        "A: I pay attention and take good notes.",
+        "B: I listen but occasionally zone out.",
+        "C: I find it hard to focus and get distracted.",
+        "D: I ignore the lesson and think about other things.",
+        "E: I often talk to friends instead of listening."
+      ],
+      "answer_mapping": {
+        "A": 5, "B": 4, "C": 3, "D": 1, "E": 2
+      }
+    },
+    {
+      "question": "You’re playing a video game.",
+      "options": [
+        "A: I get frustrated and stop playing.",
+        "B: I concentrate and try to win the game.",
+        "C: I play but sometimes get distracted by chats.",
+        "D: I lose focus and miss important moves.",
+        "E: I just watch others play instead."
+      ],
+      "answer_mapping": {
+        "A": 2, "B": 5, "C": 4, "D": 3, "E": 1
+      }
+    }
+  ],
+  "SelfRegulation": [
+    {
+      "question": "You feel angry about a disagreement.",
+      "options": [
+        "A: I ignore my feelings and don’t talk to anyone.",
+        "B: I express my feelings but try not to yell.",
+        "C: I walk away but stay angry inside.",
+        "D: I get upset and say things I don’t mean.",
+        "E: I take a deep breath and talk it out calmly."
+      ],
+      "answer_mapping": {
+        "A": 1, "B": 4, "C": 2, "D": 3, "E": 5
+      }
+    },
+    {
+      "question": "You want to eat healthier snacks.",
+      "options": [
+        "A: I forget about healthy snacks and only eat sweets.",
+        "B: I choose fruits or vegetables instead of junk food.",
+        "C: I try to limit junk food but sometimes give in.",
+        "D: I don’t care about healthy eating.",
+        "E: I eat whatever I want without thinking."
+      ],
+      "answer_mapping": {
+        "A": 2, "B": 5, "C": 4, "D": 1, "E": 3
+      }
+    },
+    {
+      "question": "You’re feeling overwhelmed with schoolwork.",
+      "options": [
+        "A: I procrastinate and avoid my work.",
+        "B: I make a plan and tackle one thing at a time.",
+        "C: I start but feel lost and don’t know where to begin.",
+        "D: I ignore my workload and do something else.",
+        "E: I get stressed and feel like giving up."
+      ],
+      "answer_mapping": {
+        "A": 3, "B": 5, "C": 4, "D": 1, "E": 2
+      }
+    },
+    {
+      "question": "You want to improve your grades.",
+      "options": [
+        "A: I don’t take my studies seriously and hope for luck.",
+        "B: I set goals and study regularly to achieve them.",
+        "C: I try to study but don’t stick to my plan.",
+        "D: I feel overwhelmed and don’t know how to start.",
+        "E: I don’t care about my grades."
+      ],
+      "answer_mapping": {
+        "A": 3, "B": 5, "C": 4, "D": 2, "E": 1
+      }
+    },
+    {
+      "question": "You have a deadline for a project.",
+      "options": [
+        "A: I forget about it until it’s too late.",
+        "B: I work on it but leave things for the last minute.",
+        "C: I get distracted and don’t make much progress.",
+        "D: I panic as the deadline approaches.",
+        "E: I start early and stay on track to finish."
+      ],
+      "answer_mapping": {
+        "A": 1, "B": 4, "C": 3, "D": 2, "E": 5
+      }
+    }
+  ],
+  "StressLevel": [
+    {
+      "question": "You have a big test coming up.",
+      "options": [
+        "A: I ignore the test and do other things.",
+        "B: I study and manage my time well.",
+        "C: I feel overwhelmed and don’t study at all.",
+        "D: I worry a lot and can’t focus on studying.",
+        "E: I feel a little stressed but try to prepare."
+      ],
+      "answer_mapping": {
+        "A": 1, "B": 5, "C": 2, "D": 3, "E": 4
+      }
+    },
+    {
+      "question": "You’re in a busy class with lots of noise.",
+      "options": [
+        "A: I get annoyed and can’t pay attention.",
+        "B: I find a way to concentrate despite the noise.",
+        "C: I leave the classroom to get some quiet.",
+        "D: I just give up on trying to listen.",
+        "E: I feel distracted but try to focus."
+      ],
+      "answer_mapping": {
+        "A": 3, "B": 5, "C": 2, "D": 1, "E": 4
+      }
+    },
+    {
+      "question": "You’re handling a group project with tight deadlines.",
+      "options": [
+        "A: I stay organized and communicate with my team.",
+        "B: I argue with my group because of stress.",
+        "C: I struggle to keep up and feel stressed.",
+        "D: I withdraw and let others handle it.",
+        "E: I manage but feel some pressure."
+      ],
+      "answer_mapping": {
+        "A": 5, "B": 2, "C": 3, "D": 1, "E": 4
+      }
+    },
+    {
+      "question": "You have too many extracurricular activities.",
+      "options": [
+        "A: I feel overwhelmed and want to quit.",
+        "B: I balance my time and enjoy my activities.",
+        "C: I get stressed and sometimes miss things.",
+        "D: I don’t participate in anything anymore.",
+        "E: I feel a little overwhelmed but keep going."
+      ],
+      "answer_mapping": {
+        "A": 2, "B": 5, "C": 3, "D": 1, "E": 4
+      }
+    },
+    {
+      "question": "You have family or friend issues.",
+      "options": [
+        "A: I avoid talking about it.",
+        "B: I get upset and react negatively.",
+        "C: I ignore it and pretend it’s not there.",
+        "D: I talk to someone about how I feel.",
+        "E: I keep my feelings to myself but feel stressed."
+      ],
+      "answer_mapping": {
+        "A": 1, "B": 3, "C": 2, "D": 5, "E": 4
+      }
+    }
+  ],
+  "BodyMind": [
+    {
+      "question": "You’re playing a sport like basketball.",
+      "options": [
+        "A: I often get confused about where to go.",
+        "B: I move quickly and keep my eyes on the ball.",
+        "C: I try to keep up, but I stumble sometimes.",
+        "D: I struggle to follow the game and feel out of place.",
+        "E: I prefer to watch rather than play."
+      ],
+     "answer_mapping": { "A": 3, "B": 5, "C": 4, "D": 2, "E": 1}
+    },
+    {
+      "question": "You’re learning a dance routine.",
+      "options": [
+        "A: I get some moves right but mess up a few.",
+        "B: I feel clumsy and don’t enjoy it.",
+        "C: I don’t want to participate at all.",
+        "D: I practice and can follow the steps easily.",
+        "E: I find it hard to remember the steps."
+      ],
+      "answer_mapping": { "A": 4, "B": 2, "C": 1, "D": 5, "E": 3 }
+    },
+    {
+      "question": "You’re drawing or painting.",
+      "options": [
+        "A: I focus and create what I imagine.",
+        "B: I try, but my lines aren’t very steady.",
+        "C: I get frustrated and give up easily.",
+        "D: I feel I can’t express what I want to create.",
+        "E: I don’t draw because I think I’m not good at it."
+      ],
+      "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1}
+    },
+    {
+      "question": "You’re playing a video game that requires quick reactions.",
+      "options": [
+        "A: I react fast and enjoy the challenge.",
+        "B: I do okay but miss some important moves.",
+        "C: I often take too long to respond.",
+        "D: I feel overwhelmed and can’t keep up.",
+        "E: I watch others play instead of participating."
+      ],
+     "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1}
+    },
+    {
+      "question": "You’re practicing a new instrument.",
+      "options": [
+       "A: I can play the notes and enjoy it.",
+        "B: I don’t want to practice.",
+        "C: I struggle but keep trying.",
+        "D: I find it difficult and often get frustrated.",
+        "E: I feel like I’m not improving at all."
+      ],
+      "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 3, "E": 2 }
+    }
+        ],
+"Empathy": [
+  {
+    "question": "A friend is feeling sad.",
+      "options": [
+        "A: I laugh and make jokes.",
+        "B: I tell them it will be okay but don’t listen much.",
+        "C: I listen and try to understand their feelings.",
+        "D: I change the subject to something happier.",
+        "E: I don’t acknowledge their sadness."
+      ],
+      "answer_mapping": { "A": 1, "B": 4, "C": 5, "D": 3, "E": 2 }
+    },
+    {
+      "question": "You see a classmate being bullied.",
+      "options": [
+        "A: I feel uncomfortable and just stay quiet.",
+        "B: I watch and feel bad but don’t intervene.",
+        "C: I stand up for them and help them feel better.",
+        "D: I ignore the situation and walk away.",
+        "E: I laugh along and don’t say anything."
+      ],
+      "answer_mapping": { "A": 2, "B": 4, "C": 5, "D": 1, "E": 3 }
+    },
+    {
+      "question": "Your sibling has a bad day at school.",
+      "options": [
+        "A: I ask them what happened and listen.",
+        "B: I tell them to get over it.",
+        "C: I laugh and say it’s not a big deal.",
+        "D: I try to cheer them up but don’t ask details.",
+        "E: I ignore them because I’m busy."
+      ],
+      "answer_mapping": { "A": 5, "B": 3, "C": 1, "D": 4, "E": 2 }
+    },
+    {
+      "question": "You see someone upset in public.",
+      "options": [
+        "A: I think they just need to toughen up.",
+        "B: I feel bad but keep walking.",
+        "C: I check if they’re okay and ask if they need help.",
+        "D: I ignore them and look away.",
+        "E: I don’t care about what they’re going through."
+      ],
+      "answer_mapping": { "A": 2, "B": 4, "C": 5, "D": 1, "E": 3 }
+    },
+    {
+      "question": "A friend shares a personal story.",
+      "options": [
+        "A: I don’t pay attention and just nod.",
+        "B: I cut them off and share my own story.",
+        "C: I listen closely and show I care.",
+        "D: I act disinterested and change the topic.",
+        "E: I listen but think about other things."
+      ],
+      "answer_mapping": { "A": 1, "B": 3, "C": 5, "D": 2, "E": 4 }
+    }
+  ],
+  "Motivation": [
+    {
+      "question": "You set a goal to get fit.",
+      "options": [
+        "A: I try to exercise but miss some days.",
+        "B: I create a workout plan and stick to it.",
+        "C: I feel like it’s too hard and want to quit.",
+        "D: I don’t care about getting fit.",
+        "E: I don’t really keep track of my progress."
+      ],
+      "answer_mapping": { "A": 4, "B": 5, "C": 2, "D": 1, "E": 3 }
+    },
+    {
+      "question": "You want to learn a new language.",
+      "options": [
+        "A: I practice a little every day.",
+        "B: I don’t believe I can learn it.",
+        "C: I study sometimes but often forget.",
+        "D: I think about it but never start.",
+        "E: I find it too challenging and give up."
+      ],
+      "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 3, "E": 2 }
+    },
+    {
+      "question": "You want to improve your grades.",
+      "options": [
+        "A: I set study goals and ask for help when needed.",
+        "B: I study occasionally but don’t stick to a plan.",
+        "C: I don’t care much about school.",
+        "D: I do my homework but don’t study much.",
+        "E: I feel stressed and don’t know where to begin."
+      ],
+      "answer_mapping": { "A": 5, "B": 4, "C": 1, "D": 3, "E": 2 }
+    },
+    {
+      "question": "You’re working on a personal project.",
+      "options": [
+        "A: I start with excitement but lose interest quickly.",
+        "B: I think about it but never take action.",
+        "C: I don’t feel motivated to do anything.",
+        "D: I get overwhelmed and stop trying.",
+        "E: I plan it out and work on it regularly."
+      ],
+      "answer_mapping": { "A": 4, "B": 3, "C": 1, "D": 2, "E": 5 }
+    },
+    {
+      "question": "You want to help out in your community.",
+      "options": [
+        "A: I don’t see the point in volunteering.",
+        "B: I want to help but feel too busy.",
+        "C: I think about it but don’t sign up.",
+        "D: I find a way to volunteer and participate actively.",
+        "E: I don’t follow through with my intentions."
+      ],
+      "answer_mapping": { "A": 1, "B": 4, "C": 3, "D": 5, "E": 2 }
+    }
+  ],
+    "SelfAwareness": [
+      {
+        "question": "You realize you’re feeling stressed.",
+        "options": [
+          "A: I feel confused about my emotions.",
+          "B: I take a moment to understand why I feel this way.",
+          "C: I ignore my feelings and keep going.",
+          "D: I know I’m stressed but don’t think about it.",
+          "E: I just brush it off and don’t reflect."
+        ],
+        "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4, "E": 1}
+      },
+      {
+        "question": "You notice you’re upset about something.",
+        "options": [
+          "A: I struggle to understand my feelings.",
+          "B: I think about what made me feel this way.",
+          "C: I distract myself instead of facing it.",
+          "D: I know I’m upset but don’t explore it further.",
+          "E: I don’t acknowledge my emotions."
+        ],
+        "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4, "E": 1}
+      },
+      {
+        "question": "You reflect on how you did in a competition.",
+        "options": [
+          "A: I forget about it and move on quickly.",
+          "B: I feel okay about it but don’t dwell on it.",
+          "C: I analyze my performance and think about improvements.",
+          "D: I don’t care about my results.",
+          "E: I feel disappointed but don’t understand why."
+        ],
+        "answer_mapping": { "A": 3, "B": 4, "C": 5, "D": 1, "E": 2}
+      },
+      {
+        "question": "You recognize your strengths and weaknesses.",
+        "options": [
+          "A: I can list what I’m good at and what I need to work on.",
+          "B: I don’t think about it at all.",
+          "C: I feel unsure about what I’m good at.",
+          "D: I focus on my weaknesses and ignore my strengths.",
+          "E: I know I have strengths but struggle to see weaknesses."
+        ],
+        "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 2, "E": 4}
+      },
+      {
+        "question": "You feel nervous before a presentation.",
+        "options": [
+          "A: I just avoid presenting altogether.",
+          "B: I acknowledge my nerves and prepare myself.",
+          "C: I feel overwhelmed and don’t know what to do.",
+          "D: I pretend I’m not nervous but feel anxious inside.",
+          "E: I know I’m nervous but try to ignore it."
+        ],
+        "answer_mapping": { "A": 1, "B": 5, "C": 3, "D": 2, "E": 4}
+      }
+    ],
+    "Mindfulness": [
+      {
+        "question": "You’re feeling overwhelmed by your thoughts.",
+        "options": [
+          "A: I let my thoughts distract me.",
+          "B: I try to clear my mind but find it hard.",
+          "C: I take a moment to breathe and focus on the present.",
+          "D: I feel overwhelmed and don’t know how to calm down.",
+          "E: I ignore my feelings and keep going."
+        ],
+        "answer_mapping": { "A": 3, "B": 4, "C": 5, "D": 2, "E": 1}
+      },
+      {
+        "question": "You’re having lunch with friends.",
+        "options": [
+          "A: I focus on my meal and enjoy our conversation.",
+          "B: I just eat without thinking about it.",
+          "C: I eat while scrolling on my phone.",
+          "D: I feel distracted by everything around me.",
+          "E: I don’t pay attention to what I’m eating."
+        ],
+        "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3}
+      },
+      {
+        "question": "You’re taking a walk outside.",
+        "options": [
+          "A: I notice the sights and sounds around me.",
+          "B: I feel bored and want to be somewhere else.",
+          "C: I rush through without appreciating it.",
+          "D: I’m lost in thought and don’t notice anything.",
+          "E: I walk but think about other things."
+        ],
+        "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4, "E": 1}
+      },
+      {
+        "question": "You’re doing homework.",
+        "options": [
+          "A: I get distracted by my phone or TV.",
+          "B: I concentrate fully and focus on my tasks.",
+          "C: I feel overwhelmed and can’t focus.",
+          "D: I rush through my work without thinking.",
+          "E: I often daydream while working."
+        ],
+        "answer_mapping": { "A": 3, "B": 5, "C": 2, "D": 4, "E": 1}
+      },
+      {
+        "question": "You’re having a tough day.",
+        "options": [
+          "A: I take a moment to reflect on my feelings.",
+          "B: I push my feelings aside and keep going.",
+          "C: I feel overwhelmed and don’t know what to do.",
+          "D: I ignore how I feel and don’t think about it.",
+          "E: I just want to escape my thoughts."
+        ],
+        "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1}
+      }
+    ],
+  "Creativity": [
+      {
+        "question": "You face a challenge at school.",
+        "options": [
+          "A: I think it’s too hard and give up.",
+          "B: I believe I can overcome it with some effort.",
+          "C: I feel defeated and doubt I can succeed.",
+          "D: I hope things will improve without effort.",
+          "E: I just ignore the problem."
+        ],
+        "answer_mapping": { "A": 1, "B": 5, "C": 2, "D": 3, "E": 4}
+      },
+      {
+        "question": "You feel down about something.",
+        "options": [
+          "A: I think things will never get better.",
+          "B: I try to find a way to feel better.",
+          "C: I believe things will improve soon.",
+          "D: I focus on the negative and feel hopeless.",
+          "E: I ignore my feelings and keep going."
+        ],
+        "answer_mapping": { "A": 1, "B": 4, "C": 5, "D": 2, "E": 3}
+      },
+      {
+        "question": "You face a tough situation at home.",
+        "options": [
+          "A: I believe things will get worse.",
+          "B: I find ways to stay positive.",
+          "C: I feel like I can’t do anything to fix it.",
+          "D: I wait for things to get better by themselves.",
+          "E: I try to make the best of it."
+        ],
+        "answer_mapping": { "A": 1, "B": 5, "C": 2, "D": 3, "E": 4}
+      },
+      {
+        "question": "You think about your future.",
+        "options": [
+          "A: I feel uncertain and unsure.",
+          "B: I believe good things will happen.",
+          "C: I am excited but worry about the challenges.",
+          "D: I’m not hopeful about my future.",
+          "E: I think about the difficulties ahead."
+        ],
+        "answer_mapping": { "A": 2, "B": 5, "C": 4, "D": 1, "E": 3}
+      },
+      {
+        "question": "You’re looking forward to a new opportunity.",
+        "options": [
+          "A: I’m excited and confident.",
+          "B: I feel unsure but hopeful.",
+          "C: I’m not sure if it will work out.",
+          "D: I’m doubtful and think it might not succeed.",
+          "E: I’m afraid of failing."
+        ],
+        "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1}
+      }
+    ],
+    "TimeManagement": [
+      {
+        "question": "You have a homework deadline coming up.",
+        "options": [
+          "A: I forget about the deadline.",
+          "B: I create a schedule to finish on time.",
+          "C: I leave it to the last minute.",
+          "D: I feel overwhelmed and don’t know where to begin.",
+          "E: I plan to start but often procrastinate."
+        ],
+        "answer_mapping": { "A": 1, "B": 5, "C": 3, "D": 2, "E": 4}
+      },
+      {
+        "question": "You want to balance school and hobbies.",
+        "options": [
+          "A: I feel I have too much to do.",
+          "B: I try to fit everything in but get stressed.",
+          "C: I set aside time for both and stick to it.",
+          "D: I don’t manage my time at all.",
+          "E: I often choose fun over responsibilities."
+        ],
+        "answer_mapping": { "A": 2, "B": 4, "C": 5, "D": 1, "E": 3}
+      },
+      {
+        "question": "You’re planning for a weekend event.",
+        "options": [
+          "A: I think about it but don’t write anything down.",
+          "B: I rush to get things done at the last moment.",
+          "C: I make a plan and prepare in advance.",
+          "D: I feel stressed and disorganized.",
+          "E: I don’t care to plan."
+        ],
+        "answer_mapping": { "A": 4, "B": 3, "C": 5, "D": 2, "E": 1}
+      },
+      {
+        "question": "You’re preparing for exams.",
+        "options": [
+          "A: I don’t take exams seriously.",
+          "B: I feel overwhelmed and don’t study at all.",
+          "C: I study a bit but don’t stick to a schedule.",
+          "D: I create a study plan and follow it.",
+          "E: I start studying too late and feel unprepared."
+        ],
+        "answer_mapping": { "A": 1, "B": 2, "C": 3, "D": 5, "E": 4}
+      },
+      {
+        "question": "You want to make time for friends.",
+        "options": [
+          "A: I schedule hangouts and make it a priority.",
+          "B: I want to see them but often forget.",
+          "C: I don’t reach out because I’m busy with other things.",
+          "D: I think friendship isn’t important.",
+          "E: I feel too busy to spend time with friends."
+        ],
+        "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 1, "E": 3}
+      }
+    ],
+    "Optimism": [
+      {
+        "question": "You face a challenge at school.",
+        "options": [
+          "A: I think it’s too hard and give up.",
+          "B: I believe I can overcome it with some effort.",
+          "C: I feel defeated and doubt I can succeed.",
+          "D: I hope things will improve without effort.",
+          "E: I just ignore the problem."
+        ],
+        "answer_mapping": { "A": 1, "B": 5, "C": 2, "D": 3, "E": 4}
+      },
+      {
+        "question": "You feel down about something.",
+        "options": [
+          "A: I think things will never get better.",
+          "B: I try to find a way to feel better.",
+          "C: I believe things will improve soon.",
+          "D: I focus on the negative and feel hopeless.",
+          "E: I ignore my feelings and keep going."
+        ],
+        "answer_mapping": { "A": 1, "B": 4, "C": 5, "D": 2, "E": 3}
+      },
+      {
+        "question": "You face a tough situation at home.",
+        "options": [
+          "A: I believe things will get worse.",
+          "B: I find ways to stay positive.",
+          "C: I feel like I can’t do anything to fix it.",
+          "D: I wait for things to get better by themselves.",
+          "E: I try to make the best of it."
+        ],
+        "answer_mapping": { "A": 1, "B": 5, "C": 2, "D": 3, "E": 4}
+      },
+      {
+        "question": "You think about your future.",
+        "options": [
+          "A: I feel uncertain and unsure.",
+          "B: I believe good things will happen.",
+          "C: I am excited but worry about the challenges.",
+          "D: I’m not hopeful about my future.",
+          "E: I think about the difficulties ahead."
+        ],
+        "answer_mapping": { "A": 2, "B": 5, "C": 4, "D": 1, "E": 3}
+      },
+      {
+        "question": "You’re looking forward to a new opportunity.",
+        "options": [
+          "A: I’m excited and confident.",
+          "B: I feel unsure but hopeful.",
+          "C: I’m not sure if it will work out.",
+          "D: I’m doubtful and think it might not succeed.",
+          "E: I’m afraid of failing."
+        ],
+        "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1}
+      }
+    ]
+  }
+  
